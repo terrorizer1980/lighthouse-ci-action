@@ -56,10 +56,21 @@
     yargs "^15.4.1"
     yargs-parser "^13.1.2"
 
-"@lhci/utils@0.8.0", "@lhci/utils@^0.8.0":
+"@lhci/utils@0.8.0":
   version "0.8.0"
   resolved "https://registry.yarnpkg.com/@lhci/utils/-/utils-0.8.0.tgz#b18968e3387bc71dea9c036412892da9ad9e4610"
   integrity sha512-3wPb2UQooIGupfy6qwq/X7shMgww2krberFXixLRa38sTeAjXtJQ4pXLkK8cCiNxrm3Z2ZZFr3jeybiuJt4zWA==
+  dependencies:
+    debug "^4.3.1"
+    isomorphic-fetch "^3.0.0"
+    js-yaml "^3.13.1"
+    lighthouse "8.0.0"
+    tree-kill "^1.2.1"
+
+"@lhci/utils@^0.8.1":
+  version "0.8.2"
+  resolved "https://registry.yarnpkg.com/@lhci/utils/-/utils-0.8.2.tgz#da8a10531d6670b115e33a2889f7c89374ee9380"
+  integrity sha512-bhogpr86lg9+tOhwn96gw2aHgPMYX4J0B63V5es7TREps4b7LxUnUwmYwPIiAzisqJm+rCexhP9cadYC4e9+7w==
   dependencies:
     debug "^4.3.1"
     isomorphic-fetch "^3.0.0"
